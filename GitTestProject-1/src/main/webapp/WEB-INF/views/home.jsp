@@ -24,6 +24,7 @@
 <p>4</p>
 <p>_</p>
 <p>6</p>
+<p>7</p>
 <ul>
 	<c:forEach var="tmp" items="${notice }">
 		<li>${tmp }</li>

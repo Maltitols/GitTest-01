@@ -8,6 +8,7 @@
 <title>/views/home.jsp</title>
 </head>
 <body>
+
 <h1>인덱스 페이지 입니다</h1>
 <h2>공지사항</h2>
 <h3>안내사항</h3>

@@ -115,9 +115,8 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>  
-		
-		<!-- 추가 의존 라이브러리 -->
+		</dependency>   
+				<!-- 추가 의존 라이브러리 -->
 		<!-- MyBatis 라이브러리 -->
 	  	<dependency>
 			<groupId>org.mybatis</groupId>
@@ -174,7 +173,7 @@
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-tx</artifactId>
 		    <version>4.0.0.RELEASE</version>
-		</dependency>		  	      
+		</dependency>     
 	</dependencies>
     <build>
         <plugins>

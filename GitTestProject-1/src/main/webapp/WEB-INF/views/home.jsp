@@ -5,18 +5,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>/home.jsp</title>
+<title>/views/home.jsp</title>
 </head>
 <body>
-<div class="container">
-	<h1>인덱스 페이지 입니다</h1>
-	<h3>작은 제목</h3>
-	<h2>공지사항</h2>
-	<ul>
-		<c:forEach var="tmp" items="${notice }">
-			<li>${tmp }</li>
-		</c:forEach>
-	</ul>
-</div>
+<h1>인덱스 페이지 입니다</h1>
+<h2>공지사항</h2>
+<h3>안내사항</h3>
+<p>1</p>
+<p>2</p>
+<p>_</p>
+<p>4</p>
+<p>_</p>
+<p>6</p>
+<ul>
+	<c:forEach var="tmp" items="${notice }">
+		<li>${tmp }</li>
+	</c:forEach>
+</ul>
 </body>
 </html>
